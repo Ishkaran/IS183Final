@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BookService } from '../books/book.service';
-import { TankService } from '../tanks/tank.service';
-
+import { TankService } from '../tanks/tanks.service';
+import { UserService } from '../users/users.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

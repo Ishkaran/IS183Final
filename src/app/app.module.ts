@@ -22,6 +22,9 @@ import { TankService } from './tanks/tank.service';
 import { TankComponent } from './tanks/tank/tank.component';
 import { TanksComponent } from './tanks/tanks.component';
 import { TankCreateComponent } from './tanks/tank-create/tank-create.component';
+import { UsersComponent } from './users/users.component';
+import { UserComponent } from './users/user/user.component';
+import { UserCreateComponent } from './users/user-create/user-create.component';
 
 // users
 
@@ -57,6 +60,9 @@ const appRoutes: Routes = [
     TanksComponent,
     TankCreateComponent,
     TankComponent,
+    UsersComponent,
+    UserComponent,
+    UserCreateComponent,
     // users
   
   ],
