@@ -1,0 +1,14 @@
+<button class="btn" [routerLink]="['/books']">back to users</button>
+
+<div *ngIf="book" class="book-create-container box-shadow">
+  <img class="book-cover" [src]="book.image_url" alt="book">
+  <label class="label">Id</label>
+  <input [(ngModel)]="user.id" class="form-input" type="text">
+  <label  class="label">username</label>
+  <input [(ngModel)]="user.username" class="form-input" type="text">
+  <label class="label">email</label>
+  <input [(ngModel)]="user.email"class="form-input" type="text">
+  <label class="label">User image</label>
+  <input [(ngModel)]="user.image_url"class="form-input" type="text">
+  <button (click)="updateBook(user.id, user)" class="btn pull-right">Update user</button>
+</div>

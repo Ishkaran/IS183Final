@@ -26,5 +26,17 @@
       </div>
     </div>
   </div>
+<!-- users -->
+  <div class="block">
+    <h1 class="center">Users Available</h1>
+    <div class="book-card-container" *ngFor="let user of users">
+      <div class="book-card" [routerLink]="['/user',user.id]">
+        <P>ID: {{tank.id}}</P>
+        <P>UserName: {{tank.tank_name}}</P>
+        <P>Email: {{tank.serial_number}}</P>
+        <P>Gallons: {{tank.gallons}}</P>
+      </div>
+    </div>
+  </div>
 
 </div>
